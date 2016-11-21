@@ -10,24 +10,24 @@ class Game
 
   def play
     if @player1 == "rock" && @player2 == 0
-      return "Compuper chose rock too, its a draw"
+      return "The compuper chose rock too, its a draw"
      elsif @player1 == "paper" && @player2 == 1
-      return "Compuper chose paper too, its a draw"
+      return "The compuper chose paper too, its a draw"
     elsif @player1 == "scissors" && @player2 == 2
-      return "Compuper chose scissors too, its a draw"
+      return "The compuper chose scissors too, its a draw"
     elsif @player1 == "rock" && @player2 == 1
-      return "Compuper chose paper, you lose"
+      return "the compuper chose paper, you lose"
     elsif @player1 == "rock" && @player2 == 2
-      return "Compuper chose scissors, you win"
+      return "The compuper chose scissors, you win"
     elsif @player1 == "paper" && @player2 == 0
-      return "Compuper chose rock, you win"
+      return "The compuper chose rock, you win"
     elsif @player1 == "paper" && @player2 == 2
-      return "Compuper chose scissors, you lose"
+      return "The compuper chose scissors, you lose"
     elsif @player1 == "scissors" && @player2 == 0
-      return "Compuper chose rock, you lose"
+      return "The compuper chose rock, you lose"
     elsif @player1 == "scissors" && @player2 == 1
-      return "Compuper chose paper, you win"
-    else return "invalid move, try again"
+      return "The compuper chose paper, you win"
+    else return "invalid move, whit ye playin at"
     end
   end
 

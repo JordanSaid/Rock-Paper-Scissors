@@ -4,7 +4,7 @@ require_relative('models/game')
 require('json')
 
 get '/' do
-  return "Type your move into the url bar by using 1 of /play/rock, scissors or paper and prepare to be dazzled by the amazing AI"
+  return "Type your move at the end of the url bar by using 1 of (/play/rock, /play/scissors or /play/paper) and prepare to be dazzled by 21st century gaming technology"
 end
 
 get '/play/:player1' do

@@ -16,7 +16,7 @@ class Game
     elsif @player1 == "scissors" && @player2 == 2
       return "The compuper chose scissors too, its a draw"
     elsif @player1 == "rock" && @player2 == 1
-      return "the compuper chose paper, you lose"
+      return "The compuper chose paper, you lose"
     elsif @player1 == "rock" && @player2 == 2
       return "The compuper chose scissors, you win"
     elsif @player1 == "paper" && @player2 == 0
